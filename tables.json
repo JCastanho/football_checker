@@ -61,6 +61,18 @@
     },
     {
         "pos": "6",
+        "name": "Gil Vicente FC",
+        "points": "20",
+        "games": "14",
+        "wins": "5",
+        "draws": "5",
+        "loses": "4",
+        "GS": "20",
+        "GA": "15",
+        "GD": "5"
+    },
+    {
+        "pos": "7",
         "name": "Portimonense",
         "points": "20",
         "games": "13",
@@ -72,7 +84,7 @@
         "GD": "1"
     },
     {
-        "pos": "6",
+        "pos": "7",
         "name": "Portimonense 20",
         "points": "13",
         "games": "6",
@@ -84,7 +96,7 @@
         "GD": "V"
     },
     {
-        "pos": "7",
+        "pos": "8",
         "name": "Vitória SC",
         "points": "19",
         "games": "13",
@@ -94,18 +106,6 @@
         "GS": "16",
         "GA": "13",
         "GD": "3"
-    },
-    {
-        "pos": "8",
-        "name": "Gil Vicente FC",
-        "points": "17",
-        "games": "13",
-        "wins": "4",
-        "draws": "5",
-        "loses": "4",
-        "GS": "19",
-        "GA": "15",
-        "GD": "4"
     },
     {
         "pos": "9",
@@ -159,13 +159,13 @@
         "pos": "13",
         "name": "FC P.Ferreira",
         "points": "11",
-        "games": "13",
+        "games": "14",
         "wins": "2",
         "draws": "5",
-        "loses": "6",
+        "loses": "7",
         "GS": "10",
-        "GA": "18",
-        "GD": "-8"
+        "GA": "19",
+        "GD": "-9"
     },
     {
         "pos": "14",
