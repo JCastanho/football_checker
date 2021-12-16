@@ -1,0 +1,160 @@
+{
+    "gr": [
+        {
+            "name": "Helton ",
+            "nacionality": "Brasil",
+            "position": "Guarda-Redes"
+        },
+        {
+            "name": "Odysseas ",
+            "nacionality": "Grécia",
+            "position": "Guarda-Redes"
+        },
+        {
+            "name": "M. Svilar ",
+            "nacionality": "Bélgica",
+            "position": "Guarda-Redes"
+        }
+    ],
+    "def": [
+        {
+            "name": "Otamendi ",
+            "nacionality": "Argentina",
+            "position": "Defesa"
+        },
+        {
+            "name": "Vertonghen ",
+            "nacionality": "Bélgica",
+            "position": "Defesa"
+        },
+        {
+            "name": "Gilberto ",
+            "nacionality": "Brasil",
+            "position": "Defesa"
+        },
+        {
+            "name": "Grimaldo ",
+            "nacionality": "Espanha",
+            "position": "Defesa"
+        },
+        {
+            "name": "Ferro ",
+            "nacionality": "Portugal",
+            "position": "Defesa"
+        },
+        {
+            "name": "L. Verissimo ",
+            "nacionality": "Brasil",
+            "position": "Defesa"
+        },
+        {
+            "name": "Tomás Araújo ",
+            "nacionality": "Portugal",
+            "position": "Defesa"
+        },
+        {
+            "name": "Morato ",
+            "nacionality": "Brasil",
+            "position": "Defesa"
+        }
+    ],
+    "mid": [
+        {
+            "name": "Taarabt ",
+            "nacionality": "Marrocos",
+            "position": "Médio"
+        },
+        {
+            "name": "Pizzi ",
+            "nacionality": "Portugal",
+            "position": "Médio"
+        },
+        {
+            "name": "Meité ",
+            "nacionality": "França",
+            "position": "Médio"
+        },
+        {
+            "name": "André Almeida ",
+            "nacionality": "Portugal",
+            "position": "Médio"
+        },
+        {
+            "name": "João Mário ",
+            "nacionality": "Portugal",
+            "position": "Médio"
+        },
+        {
+            "name": "Valentino ",
+            "nacionality": "Áustria",
+            "position": "Médio"
+        },
+        {
+            "name": "Rafa ",
+            "nacionality": "Portugal",
+            "position": "Médio"
+        },
+        {
+            "name": "J. Weigl ",
+            "nacionality": "Alemanha",
+            "position": "Médio"
+        },
+        {
+            "name": "Nemanja Radonjic ",
+            "nacionality": "Sérvia",
+            "position": "Médio"
+        },
+        {
+            "name": "Diogo Gonçalves ",
+            "nacionality": "Portugal",
+            "position": "Médio"
+        },
+        {
+            "name": "Gil Dias ",
+            "nacionality": "Portugal",
+            "position": "Médio"
+        },
+        {
+            "name": "Gedson ",
+            "nacionality": "Portugal",
+            "position": "Médio"
+        },
+        {
+            "name": "Paulo Bernardo ",
+            "nacionality": "Portugal",
+            "position": "Médio"
+        }
+    ],
+    "forw": [
+        {
+            "name": "Seferovic ",
+            "nacionality": "Suíça",
+            "position": "Avançado"
+        },
+        {
+            "name": "Yaremchuk ",
+            "nacionality": "Ucrânia",
+            "position": "Avançado"
+        },
+        {
+            "name": "Rodrigo Pinho ",
+            "nacionality": "Brasil",
+            "position": "Avançado"
+        },
+        {
+            "name": "Everton ",
+            "nacionality": "Brasil",
+            "position": "Avançado"
+        },
+        {
+            "name": "Darwin ",
+            "nacionality": "Uruguai",
+            "position": "Avançado"
+        },
+        {
+            "name": "Gonçalo Ramos ",
+            "nacionality": "Portugal",
+            "position": "Avançado"
+        }
+    ]
+}

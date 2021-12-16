@@ -31,9 +31,7 @@ avanc = []
 
 cont = 1
 
-name = ""
-nac = ""
-position = ""
+name = nac = position = ""
 
 while cont < len(teste):
     if cont < defesas_index:
@@ -43,12 +41,14 @@ while cont < len(teste):
             nac = teste[cont]
         if teste[cont] == "Guarda-Redes":
             position = teste[cont]
-        x = {
-            "name" : name,
-            "nacionality" : nac,
-            "position" : position
-        }
-        gr.append(x)
+        if (name != "" and nac != "" and position != ""):
+            x = {
+                "name" : name,
+                "nacionality" : nac,
+                "position" : position
+            }
+            name = nac = position = ""
+            gr.append(x)
     if defesas_index < cont < medios_index:
         if (teste[cont] != "Defesa" and teste[cont] not in nacionalidades and teste[cont] != "Defesas"):
             name += teste[cont] + " "    
@@ -56,12 +56,14 @@ while cont < len(teste):
             nac = teste[cont]
         if teste[cont] == "Defesa":
             position = teste[cont]
-        x = {
-            "name" : name,
-            "nacionality" : nac,
-            "position" : position
-        }
-        defesas.append(x)
+        if (name != "" and nac != "" and position != ""):
+            y = {
+                "name" : name,
+                "nacionality" : nac,
+                "position" : position
+            }
+            defesas.append(y)
+            name = nac = position = ""
     if medios_index < cont < avanc_index:
         if (teste[cont] != "Médio" and teste[cont] not in nacionalidades and teste[cont] != "Médios"):
             name += teste[cont] + " "    
@@ -69,12 +71,14 @@ while cont < len(teste):
             nac = teste[cont]
         if teste[cont] == "Médio":
             position = teste[cont]
-        x = {
-            "name" : name,
-            "nacionality" : nac,
-            "position" : position
-        }
-        medios.append(x)
+        if (name != "" and nac != "" and position != ""):
+            z = {
+                "name" : name,
+                "nacionality" : nac,
+                "position" : position
+            }
+            name = nac = position = ""
+            medios.append(z)
     if avanc_index < cont:
         if (teste[cont] != "Avançado" and teste[cont] not in nacionalidades and teste[cont] != "Avançados"):
             name += teste[cont] + " "    
@@ -82,16 +86,25 @@ while cont < len(teste):
             nac = teste[cont]
         if teste[cont] == "Avançado":
             position = teste[cont]
-        x = {
-            "name" : name,
-            "nacionality" : nac,
-            "position" : position
-        }
-        avanc.append(x)
+        if (name != "" and nac != "" and position != ""):
+            w = {
+                "name" : name,
+                "nacionality" : nac,
+                "position" : position
+            }
+            avanc.append(w)
+            name = nac = position = ""
     cont += 1
 
-# print(gr)
-print(teste)
+team = {
+    "gr" : gr,
+    "def" : defesas,
+    "mid" : medios,
+    "forw": avanc
+}
+
+with open("team.json", "w") as outfile:
+    json.dump(team, outfile)
 
 rankings = []
 for e in rankings_html[1:]:
@@ -139,5 +152,5 @@ for e in rankings_html[1:]:
         }
         rankings.append(x)
 
-# with open("tables.json", "w") as outfile:
-#     json.dump(rankings, outfile)
+with open("tables.json", "w") as outfile:
+    json.dump(rankings, outfile)
